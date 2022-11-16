@@ -15,11 +15,11 @@ int numberC = Convert.ToInt32(Console.ReadLine());
 int maxnum = numberA;
 
 if (numberB > maxnum && numberB > numberC) {
-    Console.WriteLine("max = " + numberB);
+    Console.WriteLine($"max = {numberB}");
 }
 else if (numberC > maxnum && numberC > numberB) {
-    Console.WriteLine("max = " + numberC);
+    Console.WriteLine($"max = {numberC}");
 }
 else {
-    Console.WriteLine("max = " + numberA);
+    Console.WriteLine($"max = {numberA}");
 }
