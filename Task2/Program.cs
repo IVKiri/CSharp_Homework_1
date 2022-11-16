@@ -10,7 +10,10 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (numberA > numberB) {
+if (numberA == numberB) {
+    Console.WriteLine("Числа одинаковы");
+}
+else if (numberA > numberB) {
     Console.WriteLine("max = " + numberA + ", " + "min = " + numberB);
 }
 else {
